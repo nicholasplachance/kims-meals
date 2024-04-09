@@ -1,0 +1,31 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .category-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .category-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .category-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .category-item a:hover {
+    color: #555;
+  }
+  
